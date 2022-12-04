@@ -10,6 +10,7 @@ This fork has filters that allows to disable
  * Japan-only characters
  * Alternative variations
  * NPCs
+ * Unique characters
  
 It's pretty barebones as of now, so if you want to filter characters by schools with a more pleasant design, then you should probably check [this](https://github.com/simpelplant/charasort-bluearchive) fork.
 
