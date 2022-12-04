@@ -19,6 +19,12 @@ dataSet[dataSetVersion].options = [
     key: "npc",
     tooltip: "Check this to remove non-playable (or rather non-usable) characters (ex. Arona).",
 	checked: false
+  },
+  {
+    name: "Disable limited characters",
+    key: "unique",
+    tooltip: "Check this to remove unique, limited time characters (ex. recruitable only from limited time banners or events).",
+	checked: false
   }
 ];
 
@@ -444,7 +450,8 @@ dataSet[dataSetVersion].characterData = [
     img: "e/e1/Nodoka.png",
     opts: {
 		alt: false,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -484,7 +491,8 @@ dataSet[dataSetVersion].characterData = [
     img: "a/a4/Azusa_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -492,7 +500,8 @@ dataSet[dataSetVersion].characterData = [
     img: "2/20/Mashiro_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -500,7 +509,8 @@ dataSet[dataSetVersion].characterData = [
     img: "e/e6/Tsurugi_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -516,7 +526,8 @@ dataSet[dataSetVersion].characterData = [
     img: "4/44/Hina_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -524,7 +535,8 @@ dataSet[dataSetVersion].characterData = [
     img: "5/53/Iori_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -532,7 +544,8 @@ dataSet[dataSetVersion].characterData = [
     img: "b/b0/Izumi_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -572,7 +585,8 @@ dataSet[dataSetVersion].characterData = [
     img: "b/bd/Karin_%28Bunny_Girl%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -580,7 +594,8 @@ dataSet[dataSetVersion].characterData = [
     img: "7/78/Neru_%28Bunny_Girl%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -612,7 +627,8 @@ dataSet[dataSetVersion].characterData = [
     img: "9/93/Hatsune_Miku.png",
     opts: {
 		alt: false,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -644,7 +660,8 @@ dataSet[dataSetVersion].characterData = [
     img: "0/0a/Tomoe.png",
     opts: {
 		alt: false,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -660,7 +677,8 @@ dataSet[dataSetVersion].characterData = [
     img: "6/60/Aru_%28New_Year%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -668,7 +686,8 @@ dataSet[dataSetVersion].characterData = [
     img: "c/c2/Mutsuki_%28New_Year%29.png",
     opts: {
 		alt: true,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -684,7 +703,8 @@ dataSet[dataSetVersion].characterData = [
     img: "a/a7/Wakamo.png",
     opts: {
 		alt: false,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -788,7 +808,8 @@ dataSet[dataSetVersion].characterData = [
     img: "e/e6/Michiru.png",
     opts: {
 		alt: false,
-		jp: false
+		jp: false,
+		unique: true
     }
   },
   {
@@ -844,7 +865,8 @@ dataSet[dataSetVersion].characterData = [
     img: "f/f6/Ayane_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
@@ -852,7 +874,8 @@ dataSet[dataSetVersion].characterData = [
     img: "c/c2/Hoshino_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
@@ -860,7 +883,8 @@ dataSet[dataSetVersion].characterData = [
     img: "f/f2/Shizuko_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
@@ -868,7 +892,8 @@ dataSet[dataSetVersion].characterData = [
     img: "1/1e/Chise_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
@@ -876,7 +901,8 @@ dataSet[dataSetVersion].characterData = [
     img: "3/37/Izuna_%28Swimsuit%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
@@ -932,7 +958,8 @@ dataSet[dataSetVersion].characterData = [
     img: "b/bf/Hibiki_%28Cheerleader%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
@@ -948,7 +975,8 @@ dataSet[dataSetVersion].characterData = [
     img: "8/88/Mari_%28Sportswear%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
@@ -956,7 +984,8 @@ dataSet[dataSetVersion].characterData = [
     img: "6/60/Yuuka_%28Sportswear%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
@@ -964,7 +993,8 @@ dataSet[dataSetVersion].characterData = [
     img: "8/80/Hasumi_%28Sportswear%29.png",
     opts: {
 		alt: true,
-		jp: true
+		jp: true,
+		unique: true
     }
   },
   {
