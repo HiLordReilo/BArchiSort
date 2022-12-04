@@ -15,9 +15,9 @@ const dataSet = {};
  * 
  * @example '2018-02-20'
 */
-let dataSetVersion = '';
+let dataSetVersion = '2022-12-04';
 
 /**
  * Image root, will be appended to the start of every image URL.
  */
-const imageRoot = 'https://i.imgur.com/';
+const imageRoot = 'https://static.miraheze.org/bluearchivewiki/';
