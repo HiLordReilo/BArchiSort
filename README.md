@@ -10,8 +10,11 @@ This fork has filters that allows to disable
  * Japan-only characters
  * Alternative variations
  * NPCs
+and to filter characters by their
+ * School
+ * Club
  
-It's pretty barebones as of now, so if you want to filter characters by schools with a more pleasant design, then you should probably check [this](https://github.com/simpelplant/charasort-bluearchive) fork.
+It's pretty barebones as of now, so if you want a more pleasant design and more NPCs (sup, Ibuki fans), then you should probably check [this](https://github.com/simpelplant/charasort-bluearchive) fork.
 
 ## Credits
 
